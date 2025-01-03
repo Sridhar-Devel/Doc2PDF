@@ -1,0 +1,60 @@
+2023-08-03 09:10:53,994 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-03 09:10:53,996 INFO supervisord started with pid 1
+2023-08-03 09:10:54,998 INFO spawned: 'flask_app' with pid 7
+2023-08-03 09:10:55,000 INFO spawned: 'libreoffice' with pid 8
+2023-08-03 09:10:55,014 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:10:56,024 INFO spawned: 'flask_app' with pid 30
+2023-08-03 09:10:56,024 INFO success: libreoffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-03 09:10:56,036 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:10:58,042 INFO spawned: 'flask_app' with pid 31
+2023-08-03 09:10:58,055 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:11:01,060 INFO spawned: 'flask_app' with pid 32
+2023-08-03 09:11:01,072 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:11:02,074 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2023-08-03 09:14:30,944 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-03 09:14:30,945 INFO supervisord started with pid 1
+2023-08-03 09:14:31,948 INFO spawned: 'flask_app' with pid 7
+2023-08-03 09:14:31,950 INFO spawned: 'libreoffice' with pid 8
+2023-08-03 09:14:31,961 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:14:32,969 INFO spawned: 'flask_app' with pid 30
+2023-08-03 09:14:32,970 INFO success: libreoffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-03 09:14:32,981 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:14:34,986 INFO spawned: 'flask_app' with pid 31
+2023-08-03 09:14:34,998 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:14:38,004 INFO spawned: 'flask_app' with pid 32
+2023-08-03 09:14:38,005 WARN received SIGTERM indicating exit request
+2023-08-03 09:14:38,015 INFO waiting for flask_app, libreoffice to die
+2023-08-03 09:14:38,019 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:14:38,019 WARN stopped: libreoffice (exit status 255)
+2023-08-03 09:42:06,236 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-03 09:42:06,239 INFO supervisord started with pid 1
+2023-08-03 09:42:07,241 INFO spawned: 'flask_app' with pid 7
+2023-08-03 09:42:07,243 INFO spawned: 'libreoffice' with pid 8
+2023-08-03 09:42:07,254 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:42:08,269 INFO spawned: 'flask_app' with pid 26
+2023-08-03 09:42:08,269 INFO success: libreoffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-03 09:42:08,280 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:42:18,821 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-03 09:42:18,823 INFO supervisord started with pid 1
+2023-08-03 09:42:19,826 INFO spawned: 'flask_app' with pid 7
+2023-08-03 09:42:19,827 INFO spawned: 'libreoffice' with pid 8
+2023-08-03 09:42:19,839 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:42:20,844 INFO spawned: 'flask_app' with pid 26
+2023-08-03 09:42:20,845 INFO success: libreoffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-03 09:42:20,857 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:44:19,514 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-08-03 09:44:19,516 INFO supervisord started with pid 1
+2023-08-03 09:44:20,519 INFO spawned: 'flask_app' with pid 7
+2023-08-03 09:44:20,522 INFO spawned: 'libreoffice' with pid 8
+2023-08-03 09:44:20,533 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:44:21,543 INFO spawned: 'flask_app' with pid 26
+2023-08-03 09:44:21,543 INFO success: libreoffice entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-08-03 09:44:21,555 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:44:23,560 INFO spawned: 'flask_app' with pid 27
+2023-08-03 09:44:23,572 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:44:26,577 INFO spawned: 'flask_app' with pid 28
+2023-08-03 09:44:26,590 WARN exited: flask_app (exit status 2; not expected)
+2023-08-03 09:44:27,591 INFO gave up: flask_app entered FATAL state, too many start retries too quickly
+2023-08-03 09:44:42,612 WARN received SIGTERM indicating exit request
+2023-08-03 09:44:42,612 INFO waiting for libreoffice to die
+2023-08-03 09:44:42,616 WARN stopped: libreoffice (exit status 255)

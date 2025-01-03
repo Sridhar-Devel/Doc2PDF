@@ -1,0 +1,23 @@
+# file: /srv/docx2pdf/docker-compose.yml
+# purpose: to serve docx2pdf container
+
+version: '2.4'
+
+services:
+  doc-pdf:
+    image: bit/doctopdf
+    build: .
+    container_name: doctopdf
+    restart: always
+
+    mem_limit: 4G
+    
+    ports:
+      - 5000:5000
+    environment:
+      - TEMPLATE_FILE=/app/data/Template.docx
+      - RENDERED_WORD_FILE=/app/data/Rendered_Template.docx
+      - PDF_PATH=/app/data/
+      - PDF_FILE=/app/data/Rendered_Template.pdf
+    volumes:
+      - ./app/data:/app/data 

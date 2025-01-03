@@ -1,0 +1,4 @@
+flask
+docxtpl
+openpyxl
+python-dotenv
